@@ -14,8 +14,6 @@
 .song-title {
   -ms-flex: column;
       flex: column;
-  display: -ms-flexbox;
-  display: flex;
 }
 .song-title p {
     font-size: 30px;
@@ -34,4 +32,6 @@ span {
 h2 {
   font-family: 'Charm', cursive;
   text-align: center;
+  display: -ms-flexbox;
+  display: flex;
 }
