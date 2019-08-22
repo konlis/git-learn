@@ -12,7 +12,9 @@
     font-size: 50px;
   }
 .song-title {
-  flex: column;
+  -ms-flex: column;
+      flex: column;
+  display: -ms-flexbox;
   display: flex;
 }
 .song-title p {
